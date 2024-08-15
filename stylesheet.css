@@ -1,0 +1,27 @@
+*{
+    font-family: serif sans-serif;
+}
+.avatar{
+    border-radius: 50%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+.gradient-background{
+    background: linear-gradient(300deg, #0099ffd2, #ff4c67d3, #d274ee);
+    background-size: 180% 180%;
+    animation: gradient-animation 15s ease infinite;
+}
+.name{
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
